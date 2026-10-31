@@ -1,0 +1,4 @@
+fastapi>=0.115,<1
+# The core server is enough for this small local app.  The "standard" extra
+# pulls in development/reload and optional protocol packages we do not use.
+uvicorn>=0.30,<1
